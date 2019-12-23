@@ -1,0 +1,29 @@
+sample input-------------------------
+
+freq c 32
+freq d 42
+freq e 120
+freq k 7
+freq l 42
+freq m 24
+freq u 37
+freq z 2
+build
+encode cdeklmuz
+decode 1110101011110111011111100111100
+show
+quit
+
+
+sample output--------------------------------
+
+encoded: 1110 101 0 111101 110 11111 100 111100
+decoded: cdeklmuz
+c 32 1110
+d 42 101
+e 120 0
+k 7 111101
+l 42 110
+m 24 11111
+u 37 100
+z 2 111100

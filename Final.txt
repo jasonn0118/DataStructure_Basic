@@ -1,0 +1,4 @@
+Short answer. Sudo code.
+How sort them-insertion, quick, select, merge and so on(sudo code)
+
+Tree traverse - search and sort things.

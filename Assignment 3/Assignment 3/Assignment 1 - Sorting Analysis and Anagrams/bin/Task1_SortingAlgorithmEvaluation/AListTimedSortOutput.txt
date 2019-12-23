@@ -1,0 +1,128 @@
+Testing sorting of AList size =  1000
+     0.82910ms Selection Sort Time
+     0.06110ms Selection Sort Time on sorted list
+     0.01410ms Insertion Sort Time
+     0.00710ms Insertion Sort Time on sorted list
+     0.02680ms Shell Sort Time
+     0.01510ms Shell Sort Time on sorted list
+     0.08210ms Merge Sort Time
+     0.01960ms Merge Sort Time on sorted list
+     0.02930ms Quick Sort Time
+     0.02350ms Quick Sort Time on sorted list
+     0.05010ms Recursive Selection Sort Time
+     0.02360ms Recursive Selection Sort Time on sorted list
+     0.00850ms Recursive Insertion Sort Time
+     0.00500ms Recursive Insertion Sort Time on sorted list
+     0.31340ms Using Library Sort Time
+     0.01670ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of AList size =  2000
+     0.02360ms Selection Sort Time
+     0.02070ms Selection Sort Time on sorted list
+     0.00480ms Insertion Sort Time
+     0.01710ms Insertion Sort Time on sorted list
+     0.01180ms Shell Sort Time
+     0.01140ms Shell Sort Time on sorted list
+     0.01910ms Merge Sort Time
+     0.01500ms Merge Sort Time on sorted list
+     0.02420ms Quick Sort Time
+     0.02420ms Quick Sort Time on sorted list
+     0.02360ms Recursive Selection Sort Time
+     0.02630ms Recursive Selection Sort Time on sorted list
+     0.00510ms Recursive Insertion Sort Time
+     0.01450ms Recursive Insertion Sort Time on sorted list
+     0.01040ms Using Library Sort Time
+     0.01480ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of AList size =  4000
+     0.02360ms Selection Sort Time
+     0.06740ms Selection Sort Time on sorted list
+     0.00990ms Insertion Sort Time
+     0.00840ms Insertion Sort Time on sorted list
+     0.02390ms Shell Sort Time
+     0.04890ms Shell Sort Time on sorted list
+     0.03680ms Merge Sort Time
+     0.08920ms Merge Sort Time on sorted list
+     0.05620ms Quick Sort Time
+     0.05950ms Quick Sort Time on sorted list
+     0.03580ms Recursive Selection Sort Time
+     0.06010ms Recursive Selection Sort Time on sorted list
+     0.00760ms Recursive Insertion Sort Time
+     0.00690ms Recursive Insertion Sort Time on sorted list
+     0.01100ms Using Library Sort Time
+     0.00720ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of AList size =  8000
+     0.03910ms Selection Sort Time
+     0.01090ms Selection Sort Time on sorted list
+     0.04560ms Insertion Sort Time
+     0.01360ms Insertion Sort Time on sorted list
+     0.05730ms Shell Sort Time
+     0.09320ms Shell Sort Time on sorted list
+     0.04970ms Merge Sort Time
+     0.02760ms Merge Sort Time on sorted list
+     0.05150ms Quick Sort Time
+     0.03890ms Quick Sort Time on sorted list
+     0.01960ms Recursive Selection Sort Time
+     0.01670ms Recursive Selection Sort Time on sorted list
+     0.00860ms Recursive Insertion Sort Time
+     0.01090ms Recursive Insertion Sort Time on sorted list
+     0.01300ms Using Library Sort Time
+     0.01000ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of AList size =  16000
+     0.03220ms Selection Sort Time
+     0.00760ms Selection Sort Time on sorted list
+     0.01500ms Insertion Sort Time
+     0.00280ms Insertion Sort Time on sorted list
+     0.01160ms Shell Sort Time
+     0.01080ms Shell Sort Time on sorted list
+     0.01970ms Merge Sort Time
+     0.01480ms Merge Sort Time on sorted list
+     0.02270ms Quick Sort Time
+     0.03370ms Quick Sort Time on sorted list
+     0.01380ms Recursive Selection Sort Time
+     0.01340ms Recursive Selection Sort Time on sorted list
+     0.00530ms Recursive Insertion Sort Time
+     0.00510ms Recursive Insertion Sort Time on sorted list
+     0.01230ms Using Library Sort Time
+     0.01090ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of AList size =  32000
+     0.01170ms Selection Sort Time
+     0.01690ms Selection Sort Time on sorted list
+     0.00300ms Insertion Sort Time
+     0.00250ms Insertion Sort Time on sorted list
+     0.01070ms Shell Sort Time
+     0.01640ms Shell Sort Time on sorted list
+     0.01760ms Merge Sort Time
+     0.01630ms Merge Sort Time on sorted list
+     0.02660ms Quick Sort Time
+     0.00640ms Quick Sort Time on sorted list
+     0.00800ms Recursive Selection Sort Time
+     0.00730ms Recursive Selection Sort Time on sorted list
+     0.00380ms Recursive Insertion Sort Time
+     0.00300ms Recursive Insertion Sort Time on sorted list
+     0.00750ms Using Library Sort Time
+     0.00590ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of AList size =  64000
+     0.01070ms Selection Sort Time
+     0.00740ms Selection Sort Time on sorted list
+     0.00310ms Insertion Sort Time
+     0.00780ms Insertion Sort Time on sorted list
+     0.01500ms Shell Sort Time
+     0.00880ms Shell Sort Time on sorted list
+     0.02730ms Merge Sort Time
+     0.02540ms Merge Sort Time on sorted list
+     0.01330ms Quick Sort Time
+     0.01220ms Quick Sort Time on sorted list
+     0.01650ms Recursive Selection Sort Time
+     0.01280ms Recursive Selection Sort Time on sorted list
+     0.00530ms Recursive Insertion Sort Time
+     0.00490ms Recursive Insertion Sort Time on sorted list
+     0.01290ms Using Library Sort Time
+     0.00960ms Using Library Sort Time on sorted list
+------------------------
+
+==run by Jeamin Shin

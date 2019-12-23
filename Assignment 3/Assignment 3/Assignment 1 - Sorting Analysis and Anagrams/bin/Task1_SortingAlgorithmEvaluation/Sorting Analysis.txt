@@ -1,0 +1,184 @@
+Sorting Algorithm Analysis (1 point)
+
+Student Name: Jeamin Shin
+
+1. Explain which algorithms have the best performance. Why are there differences in times? 
+
+	In general, Quick sort is the best performance.
+	Because the pivot is in its proper place after the process, then the Quick sort algorithm recursively
+	does the same for the left and right portions of the given array.
+	Actually worst case is O(n^2) but it has a really good average runtime, bounded by O(nlog n), and it is very
+	efficient for a large portion of possible inputs.
+	
+	time differences are from array size and the memory usage pattern of a sorting algoritm
+
+
+
+2. Explain which algorithms have the best performance on sorted lists. Explain the differences from non-sorted lists.
+	Sorted list is already sorted so that, you don't need to sort before a sorting algorithm runs.
+	Which means Insertion Sort is the best performance because time complexity is n.
+
+
+
+3. How does the time increase for each algorithm as the list size increases? Explain why.
+	
+	It is very clear to answer.
+	If there is many entries to check through the algorithms, 
+	algorithms' time increases.
+
+
+4. The sorting utility methods use the list interface methods for AList and LList. 
+	How does this affect the performance of each sorting algorithm?
+  	What would you do to improve the performance of the sorting methods?
+   	
+	When you use a AList, we only can get an entry by one time.
+	But if you use LList, it has to check all the position until the entry is founded. 
+	So that AList is more efficient for the sorting performance. 
+	Furthermore,  AList will be more memory efficient. 
+	LList is really better if you want to maintain a sorted list. 
+	Inserting an object is fast into the middle of a LList, but slow into an AList.
+   
+   
+5. If you substitute LinkedList in ListUsingLibraryLinkedList, things slow down a lot. Similarly, if you use LList instead of AList.
+	Why is this?
+	Because of the structure of list.
+	Especially LinkedList is using node for finding the position, it has to be check all.
+	On the other hand, although Arraylist is already occupied memory, it can check position really quick at the same time.
+	
+	
+   
+6. Show the output from one of your test runs in separate text files
+	AListTimedSortOutput.txt
+	LibraryListSortOutput.txt
+
+
+
+Testing sorting of AList size =  1000
+     0.82910ms Selection Sort Time
+     0.06110ms Selection Sort Time on sorted list
+     0.01410ms Insertion Sort Time
+     0.00710ms Insertion Sort Time on sorted list
+     0.02680ms Shell Sort Time
+     0.01510ms Shell Sort Time on sorted list
+     0.08210ms Merge Sort Time
+     0.01960ms Merge Sort Time on sorted list
+     0.02930ms Quick Sort Time
+     0.02350ms Quick Sort Time on sorted list
+     0.05010ms Recursive Selection Sort Time
+     0.02360ms Recursive Selection Sort Time on sorted list
+     0.00850ms Recursive Insertion Sort Time
+     0.00500ms Recursive Insertion Sort Time on sorted list
+     0.31340ms Using Library Sort Time
+     0.01670ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of AList size =  2000
+     0.02360ms Selection Sort Time
+     0.02070ms Selection Sort Time on sorted list
+     0.00480ms Insertion Sort Time
+     0.01710ms Insertion Sort Time on sorted list
+     0.01180ms Shell Sort Time
+     0.01140ms Shell Sort Time on sorted list
+     0.01910ms Merge Sort Time
+     0.01500ms Merge Sort Time on sorted list
+     0.02420ms Quick Sort Time
+     0.02420ms Quick Sort Time on sorted list
+     0.02360ms Recursive Selection Sort Time
+     0.02630ms Recursive Selection Sort Time on sorted list
+     0.00510ms Recursive Insertion Sort Time
+     0.01450ms Recursive Insertion Sort Time on sorted list
+     0.01040ms Using Library Sort Time
+     0.01480ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of AList size =  4000
+     0.02360ms Selection Sort Time
+     0.06740ms Selection Sort Time on sorted list
+     0.00990ms Insertion Sort Time
+     0.00840ms Insertion Sort Time on sorted list
+     0.02390ms Shell Sort Time
+     0.04890ms Shell Sort Time on sorted list
+     0.03680ms Merge Sort Time
+     0.08920ms Merge Sort Time on sorted list
+     0.05620ms Quick Sort Time
+     0.05950ms Quick Sort Time on sorted list
+     0.03580ms Recursive Selection Sort Time
+     0.06010ms Recursive Selection Sort Time on sorted list
+     0.00760ms Recursive Insertion Sort Time
+     0.00690ms Recursive Insertion Sort Time on sorted list
+     0.01100ms Using Library Sort Time
+     0.00720ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of AList size =  8000
+     0.03910ms Selection Sort Time
+     0.01090ms Selection Sort Time on sorted list
+     0.04560ms Insertion Sort Time
+     0.01360ms Insertion Sort Time on sorted list
+     0.05730ms Shell Sort Time
+     0.09320ms Shell Sort Time on sorted list
+     0.04970ms Merge Sort Time
+     0.02760ms Merge Sort Time on sorted list
+     0.05150ms Quick Sort Time
+     0.03890ms Quick Sort Time on sorted list
+     0.01960ms Recursive Selection Sort Time
+     0.01670ms Recursive Selection Sort Time on sorted list
+     0.00860ms Recursive Insertion Sort Time
+     0.01090ms Recursive Insertion Sort Time on sorted list
+     0.01300ms Using Library Sort Time
+     0.01000ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of AList size =  16000
+     0.03220ms Selection Sort Time
+     0.00760ms Selection Sort Time on sorted list
+     0.01500ms Insertion Sort Time
+     0.00280ms Insertion Sort Time on sorted list
+     0.01160ms Shell Sort Time
+     0.01080ms Shell Sort Time on sorted list
+     0.01970ms Merge Sort Time
+     0.01480ms Merge Sort Time on sorted list
+     0.02270ms Quick Sort Time
+     0.03370ms Quick Sort Time on sorted list
+     0.01380ms Recursive Selection Sort Time
+     0.01340ms Recursive Selection Sort Time on sorted list
+     0.00530ms Recursive Insertion Sort Time
+     0.00510ms Recursive Insertion Sort Time on sorted list
+     0.01230ms Using Library Sort Time
+     0.01090ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of AList size =  32000
+     0.01170ms Selection Sort Time
+     0.01690ms Selection Sort Time on sorted list
+     0.00300ms Insertion Sort Time
+     0.00250ms Insertion Sort Time on sorted list
+     0.01070ms Shell Sort Time
+     0.01640ms Shell Sort Time on sorted list
+     0.01760ms Merge Sort Time
+     0.01630ms Merge Sort Time on sorted list
+     0.02660ms Quick Sort Time
+     0.00640ms Quick Sort Time on sorted list
+     0.00800ms Recursive Selection Sort Time
+     0.00730ms Recursive Selection Sort Time on sorted list
+     0.00380ms Recursive Insertion Sort Time
+     0.00300ms Recursive Insertion Sort Time on sorted list
+     0.00750ms Using Library Sort Time
+     0.00590ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of AList size =  64000
+     0.01070ms Selection Sort Time
+     0.00740ms Selection Sort Time on sorted list
+     0.00310ms Insertion Sort Time
+     0.00780ms Insertion Sort Time on sorted list
+     0.01500ms Shell Sort Time
+     0.00880ms Shell Sort Time on sorted list
+     0.02730ms Merge Sort Time
+     0.02540ms Merge Sort Time on sorted list
+     0.01330ms Quick Sort Time
+     0.01220ms Quick Sort Time on sorted list
+     0.01650ms Recursive Selection Sort Time
+     0.01280ms Recursive Selection Sort Time on sorted list
+     0.00530ms Recursive Insertion Sort Time
+     0.00490ms Recursive Insertion Sort Time on sorted list
+     0.01290ms Using Library Sort Time
+     0.00960ms Using Library Sort Time on sorted list
+------------------------
+
+==run by Jeamin Shin
+

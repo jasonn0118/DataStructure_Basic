@@ -1,0 +1,101 @@
+Testing sorting of LibraryLinkedList size =  100
+     2.68600ms Selection Sort Time
+     0.59130ms Selection Sort Time on sorted list
+     0.15040ms Insertion Sort Time
+     0.05820ms Insertion Sort Time on sorted list
+     0.16330ms Shell Sort Time
+     0.15960ms Shell Sort Time on sorted list
+     0.11650ms Merge Sort Time
+     0.09190ms Merge Sort Time on sorted list
+     0.20720ms Quick Sort Time
+     0.22420ms Quick Sort Time on sorted list
+     0.35350ms Using Library Sort Time
+     0.02460ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of LibraryLinkedList size =  200
+     0.64620ms Selection Sort Time
+     0.49020ms Selection Sort Time on sorted list
+     0.06090ms Insertion Sort Time
+     0.05690ms Insertion Sort Time on sorted list
+     0.18550ms Shell Sort Time
+     0.18830ms Shell Sort Time on sorted list
+     0.17370ms Merge Sort Time
+     0.16120ms Merge Sort Time on sorted list
+     0.49600ms Quick Sort Time
+     0.45870ms Quick Sort Time on sorted list
+     0.06450ms Using Library Sort Time
+     0.04850ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of LibraryLinkedList size =  400
+     2.31090ms Selection Sort Time
+     1.85400ms Selection Sort Time on sorted list
+     0.07190ms Insertion Sort Time
+     0.05540ms Insertion Sort Time on sorted list
+     0.21160ms Shell Sort Time
+     0.21060ms Shell Sort Time on sorted list
+     0.18290ms Merge Sort Time
+     0.16990ms Merge Sort Time on sorted list
+     2.92840ms Quick Sort Time
+     2.75100ms Quick Sort Time on sorted list
+     0.08060ms Using Library Sort Time
+     0.08410ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of LibraryLinkedList size =  800
+     9.47870ms Selection Sort Time
+     2.49410ms Selection Sort Time on sorted list
+     0.07440ms Insertion Sort Time
+     0.06700ms Insertion Sort Time on sorted list
+     0.55290ms Shell Sort Time
+     0.49770ms Shell Sort Time on sorted list
+     0.30290ms Merge Sort Time
+     0.60380ms Merge Sort Time on sorted list
+     6.33230ms Quick Sort Time
+     6.58670ms Quick Sort Time on sorted list
+     0.12220ms Using Library Sort Time
+     0.14130ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of LibraryLinkedList size =  1600
+    17.58080ms Selection Sort Time
+    13.48730ms Selection Sort Time on sorted list
+     0.21500ms Insertion Sort Time
+     0.18630ms Insertion Sort Time on sorted list
+     0.18790ms Shell Sort Time
+     0.18570ms Shell Sort Time on sorted list
+     0.19050ms Merge Sort Time
+     0.18340ms Merge Sort Time on sorted list
+     5.50200ms Quick Sort Time
+     5.05420ms Quick Sort Time on sorted list
+     0.16190ms Using Library Sort Time
+     0.13420ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of LibraryLinkedList size =  3200
+    45.94910ms Selection Sort Time
+    29.94640ms Selection Sort Time on sorted list
+     0.17390ms Insertion Sort Time
+     0.16470ms Insertion Sort Time on sorted list
+     0.38430ms Shell Sort Time
+     0.38240ms Shell Sort Time on sorted list
+     0.31700ms Merge Sort Time
+     0.30010ms Merge Sort Time on sorted list
+    20.54810ms Quick Sort Time
+    23.88170ms Quick Sort Time on sorted list
+     0.29070ms Using Library Sort Time
+     0.27830ms Using Library Sort Time on sorted list
+------------------------
+Testing sorting of LibraryLinkedList size =  6400
+   155.06450ms Selection Sort Time
+   148.94480ms Selection Sort Time on sorted list
+     0.35950ms Insertion Sort Time
+     0.33380ms Insertion Sort Time on sorted list
+     0.96850ms Shell Sort Time
+     0.96960ms Shell Sort Time on sorted list
+     0.68320ms Merge Sort Time
+     0.67200ms Merge Sort Time on sorted list
+   102.56380ms Quick Sort Time
+   102.31980ms Quick Sort Time on sorted list
+     0.60620ms Using Library Sort Time
+     0.51720ms Using Library Sort Time on sorted list
+------------------------
+
+
+==Run by Jeamin Shin
